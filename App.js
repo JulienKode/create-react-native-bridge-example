@@ -9,6 +9,7 @@
 import React, {useEffect, useState} from 'react';
 import {
   NativeModules,
+  requireNativeComponent,
   SafeAreaView,
   StyleSheet,
   View,
@@ -18,6 +19,7 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
+const NoodleButton = requireNativeComponent('RNTNoodleButton');
 const NoodleManager = NativeModules.NoodleManager;
 
 const App: () => React$Node = () => {
@@ -36,6 +38,7 @@ const App: () => React$Node = () => {
       <View style={styles.sectionContainer}>
         <Text style={styles.sectionTitle}>Noodle orders</Text>
         <Text style={styles.sectionDescription}>{message}</Text>
+        <NoodleButton />
       </View>
     </SafeAreaView>
   );

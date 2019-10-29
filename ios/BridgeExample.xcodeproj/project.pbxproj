@@ -19,6 +19,8 @@
 		2DCD954D1E0B4F2C00145EB5 /* BridgeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BridgeExampleTests.m */; };
 		4774B0C245A67E9E93CF89E4 /* libPods-BridgeExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E24E4D95D7779315BDF32B2F /* libPods-BridgeExample-tvOS.a */; };
 		64DEEF612368474F003D5CE3 /* NoodleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DEEF602368474F003D5CE3 /* NoodleManager.m */; };
+		64DEEF6523685007003D5CE3 /* RNTNoodleButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DEEF6323684C5C003D5CE3 /* RNTNoodleButtonManager.m */; };
+		64DEEF6623685007003D5CE3 /* RNTNoodleButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DEEF6323684C5C003D5CE3 /* RNTNoodleButtonManager.m */; };
 		B8D471B3E6379E79C45EDE6F /* libPods-BridgeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3566860804A947509D6170D7 /* libPods-BridgeExample.a */; };
 		F026B88A062A398545673B7C /* libPods-BridgeExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCB102A66920ADDDD8B51AB /* libPods-BridgeExample-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,7 @@
 		5CD1460D42F9649A574FC9A5 /* Pods-BridgeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeExample.release.xcconfig"; path = "Target Support Files/Pods-BridgeExample/Pods-BridgeExample.release.xcconfig"; sourceTree = "<group>"; };
 		64DEEF5F2368473E003D5CE3 /* NoodleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoodleManager.h; sourceTree = "<group>"; };
 		64DEEF602368474F003D5CE3 /* NoodleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoodleManager.m; sourceTree = "<group>"; };
+		64DEEF6323684C5C003D5CE3 /* RNTNoodleButtonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTNoodleButtonManager.m; sourceTree = "<group>"; };
 		7B9BBD289C7076946811AC9F /* Pods-BridgeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-BridgeExampleTests/Pods-BridgeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		A1F85857420E7FCA1E6184AF /* libPods-BridgeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BridgeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C011505D13E0B993F475ED6A /* Pods-BridgeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BridgeExample-tvOSTests/Pods-BridgeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				64DEEF5F2368473E003D5CE3 /* NoodleManager.h */,
 				64DEEF602368474F003D5CE3 /* NoodleManager.m */,
+				64DEEF6323684C5C003D5CE3 /* RNTNoodleButtonManager.m */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -525,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DEEF6623685007003D5CE3 /* RNTNoodleButtonManager.m in Sources */,
 				00E356F31AD99517003FC87E /* BridgeExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DEEF6523685007003D5CE3 /* RNTNoodleButtonManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				64DEEF612368474F003D5CE3 /* NoodleManager.m in Sources */,
